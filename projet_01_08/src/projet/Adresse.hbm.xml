@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 12 d?c. 2018 11:38:33 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="projet.Adresse" table="ADRESSE">
+        <id name="id" type="int">
+            <column name="ID" />
+            <generator class="assigned" />
+        </id>
+        <property name="ville" type="java.lang.String">
+            <column name="VILLE" />
+        </property>
+        <property name="codepostal" type="java.lang.String">
+            <column name="CODEPOSTAL" />
+        </property>
+        <property name="complementcedex" type="java.lang.String">
+            <column name="COMPLEMENTCEDEX" />
+        </property>
+        <property name="ligne1" type="java.lang.String">
+            <column name="LIGNE1" />
+        </property>
+        <property name="ligne2" type="java.lang.String">
+            <column name="LIGNE2" />
+        </property>
+        <property name="ligne3" type="java.lang.String">
+            <column name="LIGNE3" />
+        </property>
+    </class>
+</hibernate-mapping>
